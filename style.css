@@ -1,0 +1,88 @@
+body {
+    background-color: #d5e1ef;
+    font-family: Outfit;
+}
+
+
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+
+
+@media (max-width: 767px) {
+
+    .carta {
+        border: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        border-radius: 20px;
+
+
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 40px;
+
+
+        box-shadow: 0px 10px 25px 4.77px #0000003b;
+    }
+
+    .carta img {
+        border-radius: 20px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+    .carta {
+        border: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 25rem;
+        border-radius: 20px;
+
+
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 40px;
+
+
+        box-shadow: 0px 10px 25px 4.77px #0000003b;
+    }
+
+    .carta img {
+        border-radius: 20px;
+    }
+
+}
+
+
+.card-title {
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #1f314f;
+}
+
+.card-text {
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: #68778d;
+    margin-top: 24px;
+}
+
+.card-body {
+    margin-top: 8px;
+}
